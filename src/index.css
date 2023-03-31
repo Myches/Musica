@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4xl;
+  
+}
+
+body {
+
+  margin: 0;
+  font-family:'Montserrat',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ box-sizing:border-box;
+ background-color: black;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.marquee{
+  animation: marquee 5s linear infinite;
+
+}
+
+@keyframes marquee {
+  0%{
+    transform:translateX(100%)
+  }
+  100%{
+    transform: translateX(-100);
+  }
+}
+.awssld__bullets button {
+  display: none !important;
+
+}
+
+::-webkit-scrollbar {
+ display: none;
+
+}
+  
+
+::-webkit-scrollbar-thumb{
+  background-color: cyan;
+  border-radius: 5px;
+  
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+  .ellipsis{
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    .w-25 {
+      display: none;
+    }
+  }

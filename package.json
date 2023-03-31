@@ -1,0 +1,58 @@
+{
+  "name": "musica",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "api": "^5.0.8",
+    "axios": "^1.2.0",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "node": "^19.8.1",
+    "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spotify-web-playback": "^0.10.0",
+    "slick-carousel": "^1.8.1",
+    "spotify": "^0.3.0",
+    "spotify-web-api-js": "^1.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "tailwindcss": "^3.2.4",
+    "vitals": "^0.1.2",
+    "web": "^0.0.2",
+    "web-vitals": "^3.1.0"
+  }
+}
